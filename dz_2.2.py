@@ -5,8 +5,6 @@ d3 = (number // 100) % 10
 d4 = (number // 10) % 10
 d5 = number % 10
 
-print(d5)
-print(d4)
-print(d3)
-print(d2)
-print(d1)
+reversed_number = d5 * 10000 + d4 * 1000 + d3 * 100 + d2 * 10 + d1
+
+print(reversed_number)

@@ -1,6 +1,6 @@
 import string
 
-text = input("Введите текст для хэштега: ")
+text = input("Hashtag: ")
 
   
 allowed = ""

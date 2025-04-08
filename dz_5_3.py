@@ -1,9 +1,10 @@
 import string
 
-input = input("Введите текст для хэштега: ")
+text = input("Введите текст для хэштега: ")
 
+  
 allowed = ""
-for char in input:
+for char in text:
     found = False
     for symbol in string.punctuation + " ":
         if char == symbol:
@@ -11,7 +12,8 @@ for char in input:
     if found == False:
         allowed += char
 
-hashtag = "#" + input.strip().replace(' ','_').title()
+
+hashtag = "#" + allowed.title()
 
 
 hashtag = hashtag[:140]

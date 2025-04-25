@@ -1,6 +1,4 @@
-name = input(str('Put your name pls:'))
-age = input(str('Put your age pls:'))
-
+ 
 def say_hi(name, age):
   say_hello = f"Hi. My name is {name} and I'm {age} years old"
   return say_hello
